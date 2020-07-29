@@ -24,7 +24,7 @@ const UseInput = () => {
 
   return (
     <div>
-      {/* ...name : name 안에 있는 모든 것들을 보여줌 (여기서는 value={name}.value onChange={name.onChange}와 같다) */}
+      {/* ...name : name 안에 있는 모든 것들을 보여줌 (여기서는 value={name.value} onChange={name.onChange}와 같다) */}
       <input placeholder="Name" {...name} />
     </div>
   );
