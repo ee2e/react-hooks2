@@ -7,6 +7,8 @@ import UseTabs from "./Components/UseTabs";
 import UseEffect from "./Components/UseEffect";
 import UseTitle from "./Components/UseTitle";
 import UseClick from "./Components/UseClick";
+import UseConfirm from "./Components/UseConfirm";
+import UsePreventLeave from "./Components/UsePreventLeave";
 
 const App = () => {
   return (
@@ -22,6 +24,10 @@ const App = () => {
       <UseTitle />
       <hr />
       <UseClick />
+      <hr />
+      <UseConfirm />
+      <hr />
+      <UsePreventLeave />
     </div>
   );
 };
