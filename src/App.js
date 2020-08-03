@@ -9,6 +9,7 @@ import UseTitle from "./Components/UseTitle";
 import UseClick from "./Components/UseClick";
 import UseConfirm from "./Components/UseConfirm";
 import UsePreventLeave from "./Components/UsePreventLeave";
+import UseBeforeLeave from "./Components/UseBeforeLeave";
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
       <UseConfirm />
       <hr />
       <UsePreventLeave />
+      <hr />
+      <UseBeforeLeave />
     </div>
   );
 };
